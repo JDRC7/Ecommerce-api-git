@@ -46,6 +46,18 @@ git diff b3e0289ec991dfb185fbc4e10927623ad1213277
 
 git commit --amend -m "feat
 
+# ver ramas locales y remotas
+
+git branh -a
+
+# Crear rama
+
+git branch FEATURE/RAMA-NUEVA
+
+# Cambiar de rama
+
+git switch FEATURE/RAMA-NUEVA
+
 
 
 # Configuraciones 
