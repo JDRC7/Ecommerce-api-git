@@ -16,6 +16,38 @@ git push
 # Subir cambios al repositorio indicandole en que rama
 git push origin (rama)
 
+# Consultar logs
+
+git log
+git log --oneline
+git config user.email
+git log --oneline --graph --all
+git log --stat
+git log -p
+git log --oneline -10
+git log --author="yochanperezperez@gmail.com"
+
+# Por fecha
+
+git log --after="2026-01-01"
+git log --before="2026-04-01"
+git log --after="2026-01-01" before="2026-04-01"
+git log .\main.py
+
+# Consultar git especifico
+git show b3e0289ec991dfb185fbc4e10927623ad1213277
+git show b3e0289ec991dfb185fbc4e10927623ad1213277 --name-only
+git show b3e0289ec991dfb185fbc4e10927623ad1213277 --stat
+git show b3e0289ec991dfb185fbc4e10927623ad1213277:services/order_service.py
+gi ls-tree b3e0289ec991dfb185fbc4e10927623ad1213277
+git diff b3e0289ec991dfb185fbc4e10927623ad1213277
+
+# Modificar el último commit
+
+git commit --amend -m "feat
+
+
+
 # Configuraciones 
 
 git config --global user.name "yochanperez"
